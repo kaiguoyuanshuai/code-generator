@@ -1,0 +1,29 @@
+package ${item.basePackage}.bean.${item.functionModelPackage};
+
+#foreach ($attrType in $!{item.attrTypeFullSet})
+import ${attrType} ;
+#end
+
+/*
+* 描述:
+* @auth ${item.functionDev}
+* @time 2018/12/20
+*/
+
+public class $!{item.entityName} {
+
+#foreach ($attr in $!{item.entityAttrConfigs})
+private ${attr.attrType} ${attr.attrName};
+
+
+public ${attr.attrType} get${attr.attrNameUp}() {
+return ${attr.attrName};
+}
+
+public void set${attr.attrNameUp}(${attr.attrType} ${attr.attrName}) {
+this.${attr.attrName} = ${attr.attrName};
+}
+#end
+
+
+}
