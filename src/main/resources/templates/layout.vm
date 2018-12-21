@@ -1,0 +1,10 @@
+<html>
+<head>
+    <title>$!pageTitle</title>
+</head>
+<body>
+<!-- MVC View 渲染HTML内容的渲染上下文名称 -->
+<!-- spring.velocity.screenContentKey = body_content -->
+    $screen_content
+</body>
+</html>

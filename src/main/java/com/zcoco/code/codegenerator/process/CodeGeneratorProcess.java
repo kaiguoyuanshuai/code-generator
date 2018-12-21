@@ -12,5 +12,5 @@ public interface CodeGeneratorProcess {
     /**
      * 生成代码
      */
-    public void generator() throws IOException;
+    public void generator(GeneratorContext generatorContext) throws IOException;
 }

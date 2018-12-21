@@ -13,3 +13,6 @@
 - *Mapper.java 数据处理接口实现
 - *.mapper.xml SQL文件
 - CURD的界面
+
+
+https://github.com/alibaba/velocity-spring-boot-project/blob/master/README_CN.md

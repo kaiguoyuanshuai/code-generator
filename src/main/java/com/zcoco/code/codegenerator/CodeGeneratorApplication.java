@@ -21,7 +21,7 @@ public class CodeGeneratorApplication {
         SpringApplication.run(CodeGeneratorApplication.class, args);
     }
 
-
+/*
     @Bean
     VelocityEngine velocityEngine() throws IOException {
         Properties properties = new Properties();
@@ -29,7 +29,7 @@ public class CodeGeneratorApplication {
         properties.setProperty(RuntimeConstants.RESOURCE_LOADER, "classpath");
         properties.setProperty("classpath.resource.loader.class", ClasspathResourceLoader.class.getName()) ;
         return new VelocityEngine(properties);
-    }
+    }*/
 
 }
 

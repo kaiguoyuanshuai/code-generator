@@ -20,10 +20,16 @@
 
     <dependencies>
 
-        <dependency>
+   <!--     <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-velocity</artifactId>
             <version>1.4.6.RELEASE</version>
+        </dependency>-->
+
+        <dependency>
+            <groupId>com.alibaba.boot</groupId>
+            <artifactId>velocity-spring-boot-starter</artifactId>
+            <version>1.0.4.RELEASE</version>
         </dependency>
 
         <dependency>
